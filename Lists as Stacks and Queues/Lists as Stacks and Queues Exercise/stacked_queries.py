@@ -1,6 +1,6 @@
 from collections import deque
 
-numbers = deque()
+numbers = deque() #initialize a stack
 
 map_functions = {
     1: lambda x: numbers.append(x[1]), # push the number onto the stack; index 1 for list position, not zero 
