@@ -4,7 +4,7 @@ In this repository there are solutions to tasks from the Python Advanced Course 
 
 Course Duration - Jan 2023 - Feb 2023
 
-Lecturer of course - [Mario Zahariev](https://www.linkedin.com/in/mario-zahariev-753a7b202/) 
+Lecturer - [Mario Zahariev](https://www.linkedin.com/in/mario-zahariev-753a7b202/) 
 
 ![image](https://user-images.githubusercontent.com/68993494/185683680-bcfefe65-88fb-4192-b0b2-ff9130c39487.png)
 
