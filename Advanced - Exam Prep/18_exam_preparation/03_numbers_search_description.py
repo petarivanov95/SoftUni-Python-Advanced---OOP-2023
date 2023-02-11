@@ -14,17 +14,13 @@ def numbers_searching(*args):
     missing_num = list(full_range - num_set)
     
     # The duplicate numbers are found by counting the number of occurrences of each number in the input
-    duplicate_nums = set([num for num in args if args.count(num) > 1])
+    duplicate_nums = [num for num in args if args.count(num) > 1]
     
-    # # Remove duplicate elements from the duplicate_nums list
-    # duplicate_nums = list(set(duplicate_nums))
+    # Remove duplicate elements from the duplicate_nums list
+    duplicate_nums = list(set(duplicate_nums))
     
     # Return the results in the desired format
     return [missing_num[0], sorted(duplicate_nums)]
-
-
-# def numbers_searching(*args):
-#     return args
 
 print(numbers_searching(1, 2, 4, 2, 5, 4))
 print(numbers_searching(5, 5, 9, 10, 7, 8, 7, 9))
