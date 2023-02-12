@@ -1,16 +1,25 @@
+
 def read_matrix_func():
+    # Get the number of rows and columns of the matrix from the user input
     number_of_rows, number_of_cols = map(int, input().split(', '))
+
     current_matrix = []
 
+    # Loop through each row of the matrix
     for row in range(number_of_rows):
+        # Get the elements of the current row from the user input
         row_data = list(map(int,input().split(', ')))
+        
+        # Add the current row to the matrix
         current_matrix.append(row_data)
 
+    # Return the matrix after it has been read and populated with data
     return current_matrix
+
 
 matrix = read_matrix_func()
 
-
+# Initialize a variable to store the sum of all elements of the matrix
 matrix_elem_sum = 0 
 
 
