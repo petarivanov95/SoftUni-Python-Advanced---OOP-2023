@@ -19,5 +19,5 @@ Lecturer - [Mario Zahariev](https://www.linkedin.com/in/mario-zahariev-753a7b202
 
 ## Additional resources
 
-- [Course page - Programming Advanced with Python - January 2023](https://softuni.bg/trainings/3963/python-advanced-january-2023#lesson-49378)
+- [Course page - Programming Advanced with Python - January 2023](https://softuni.bg/trainings/3963/python-advanced-january-2023)
 - [Official Python documentation](https://docs.python.org/3/)
